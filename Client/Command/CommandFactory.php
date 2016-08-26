@@ -54,6 +54,8 @@ class CommandFactory extends Factory implements CommandFactoryInterface
     }
 
     /**
+     * Register command under class and alias.
+     *
      * @param string $alias
      * @param string $class
      */
